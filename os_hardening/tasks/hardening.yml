@@ -123,4 +123,3 @@
   when:
     - ansible_facts.selinux.status == 'enabled'
     - os_selinux_enabled | bool
-    kllklklkljoj;jbj  jbjj
