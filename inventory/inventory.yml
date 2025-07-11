@@ -1,7 +1,4 @@
 all:
-   vars:
-      ansible_user: root
-      ansible_port: 7168
    children:
       single-node:
         hosts:
