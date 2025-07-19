@@ -1,0 +1,8 @@
+- name: System Security Hardening
+  hosts: all
+  become: true 
+  roles:
+   - ssh_hardening
+   - os_hardening
+
+   
